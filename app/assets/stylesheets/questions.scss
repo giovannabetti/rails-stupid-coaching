@@ -1,3 +1,31 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+
+  &.coach {
+    background-color: lightyellow;
+    p { font-weight: 400; }
+  }
+}
+
+cite:before {
+  content: "—"
+}
